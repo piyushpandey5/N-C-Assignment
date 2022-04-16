@@ -1,0 +1,47 @@
+#include<iostream>
+using namespace std;
+#  define a 86400;
+# define b 3600;
+# define c 60;
+int main(){
+    int s1;
+    long s2;
+    long long s3;
+    int h1;
+    long h2;
+    long long h3;
+    int m1;
+    long m2;
+    long m3;
+    int days1,days2,days3,hours1,hours2,hours3,min1,min2,min3;
+    cout<<"enter the second in int type:"<<endl;
+    cin>>s1;
+    cout<<"enter the second in long type:"<<endl;
+    cin>>s2;
+    cout<<"enter the second in long long  type:"<<endl;
+    cin>>s3;
+    days1=s1/a;
+    days2=s2/a;
+    days3=s3/a;
+    cout<<"seconds in days:"<<days1<<"days\n"<<days2<<"days\n"<<days3<<"days"<<endl;;
+    cout<<"enter the hours in int type:"<<endl;
+    cin>>h1;
+    cout<<"enter the hours in long type:"<<endl;
+    cin>>h2;
+    cout<<"enter the hours in long long  type:"<<endl;
+    cin>>h3;
+    hours1=h1/b;
+    hours2=h2/b;
+    hours3=h3/b;
+    cout<<"second in hours :"<<hours1<<"hours\n" <<hours2<<"hours\n"<<hours3<<"hours\n"<<endl;
+    cout<<"enter the min in int type:"<<endl;
+    cin>>m1;
+    cout<<"enter the min in long type:"<<endl;
+    cin>>m2;
+    cout<<"enter the min in long long  type:"<<endl;
+    cin>>m3;
+    min1=m1/c;
+    min2=m2/c;
+    min3=m3/c;
+    cout<<"seconds in min:"<<min1<<"min\n"<<min2<<"min\n"<<min3<<"min\n"<<endl;
+}
